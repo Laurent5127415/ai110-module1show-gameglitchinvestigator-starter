@@ -5,8 +5,11 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 ## 1. What was broken when you started?
 
 - What did the game look like the first time you ran it?
+    The first time I ran the game, to me everything looked okay, except on the left it said that I had 8 attempts left and on the right I started the game with only 7 attempts. 
 - List at least two concrete bugs you noticed at the start  
   (for example: "the hints were backwards").
+    1. The starting attempts left were 7 instead of 8
+    2. When I was play the game, a guess of 8, the hint told me to go higher and then when I put in a 9, the hin twould tell me to go lower. 
 
 **Bug Reproduction Log**
 
@@ -14,17 +17,22 @@ Document at least 3 bugs you found. Add rows as needed.
 
 | Input | Expected Behavior | Actual Behavior | Console Output / Error |
 |-------|-------------------|-----------------|------------------------|
-| | | | |
-| | | | |
-| | | | |
+|    4  | Go LOWER!         | Go HIGHER!      | |
+|    1  | Go HIGHER!        | Go LOWER!       |                      |
+| Hard  | Range: 1 to 100   | Range: 1 to 50| |
 
 ---
 
 ## 2. How did you use AI as a teammate?
 
 - Which AI tools did you use on this project (for example: ChatGPT, Gemini, Copilot)?
+    I used AI to explain to me the functionality of some of the lines of code and to double check errors I found. 
+
 - Give one example of an AI suggestion that was correct (including what the AI suggested and how you verified the result).
+    I  
+
 - Give one example of an AI suggestion that was incorrect or misleading (including what the AI suggested and how you verified the result).
+    I was using claude, it told me to create a vertual environment (venv) by using "python -m venv venv" and the terminal returned that "command not found: python" as I was supposed to use python3. 
 
 ---
 
